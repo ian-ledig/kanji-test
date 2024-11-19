@@ -33,21 +33,17 @@ Kanji Test is an interactive application designed to help users learn and memori
 
 4. Build the Executable
 
-To create the executable, run the following command:
-
     ```bash
     npm run dist
     ```
-    
-This command will use Electron Builder to package and create the installer for your application. It will generate an installer for your platform (Windows, macOS, or Linux) depending on the system you're running this command on.
 
 5. Locate the Executable
 
-After the build process finishes, you will find the generated installer in the dist/ directory of your project. For example:
+    After the build process finishes, you will find the generated installer in the dist/ directory of your project. For example:
 
-Windows: You will find an .exe installer.
-macOS: The app will be packaged as a .dmg file.
-Linux: You will find a .deb or .AppImage file, depending on your system configuration.
+    Windows: You will find an .exe installer.
+    macOS: The app will be packaged as a .dmg file.
+    Linux: You will find a .deb or .AppImage file, depending on your system configuration.
 
 ## Usage
 
