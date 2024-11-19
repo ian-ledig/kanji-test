@@ -1,0 +1,32 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Electron build outputs
+/dist/
+/out/
+/build/
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE/Editor files
+.idea/
+.vscode/
+
+# Electron packaging and distribution
+/.electron/
+package-lock.json
+*.asar
+
+# Temporary files
+*.swp
+*.swo
+*.bak
+*.tmp
