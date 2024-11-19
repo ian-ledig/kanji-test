@@ -31,19 +31,25 @@ Kanji Test is an interactive application designed to help users learn and memori
     npm start
     ```
 
-4. Build the Executable
+## Building the Executable
+
+1. Build the Executable
 
     ```bash
     npm run dist
     ```
 
-5. Locate the Executable
+2. Locate the Executable
 
-    After the build process finishes, you will find the generated installer in the dist/ directory of your project. For example:  
+    After the build process finishes, you will find the generated installer in the `dist/` directory of your project. For example:  
 
-    Windows: You will find an .exe installer.  
-    macOS: The app will be packaged as a .dmg file.  
-    Linux: You will find a .deb or .AppImage file, depending on your system configuration.
+    Windows: You will find an `.exe` installer.  
+    macOS: The app will be packaged as a `.dmg` file.  
+    Linux: You will find a `.deb` or `.AppImage` file, depending on your system configuration.
+
+## Edit words
+
+You can easily edit the word list by applying changes to the `assets/kanji.txt` file.
 
 ## Usage
 
