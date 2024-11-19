@@ -45,8 +45,11 @@ This project is developed by Ian LEDIG. I created this app to help learners prac
 
 Below is a screenshot of the application in action:
 
+![kanjitest0](https://github.com/user-attachments/assets/a0e41fb7-b08a-4d98-bafe-4f69d70e39b9)
+![kanjitest1](https://github.com/user-attachments/assets/0a53c660-5e96-412f-872c-f6b62d79743b)
+
 The screen displays a random kanji character with an input box for typing the correct kana. You can see the feedback after entering your answer.
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/ian-ledig/kanji-test/LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/ian-ledig/kanji-test/blob/master/LISENCE) file for details.
 
