@@ -39,10 +39,10 @@ Kanji Test is an interactive application designed to help users learn and memori
 
 5. Locate the Executable
 
-    After the build process finishes, you will find the generated installer in the dist/ directory of your project. For example:
+    After the build process finishes, you will find the generated installer in the dist/ directory of your project. For example:  
 
-    Windows: You will find an .exe installer.
-    macOS: The app will be packaged as a .dmg file.
+    Windows: You will find an .exe installer.  
+    macOS: The app will be packaged as a .dmg file.  
     Linux: You will find a .deb or .AppImage file, depending on your system configuration.
 
 ## Usage
