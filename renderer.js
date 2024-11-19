@@ -36,4 +36,22 @@ document.getElementById('input').addEventListener('keydown', (event) => {
   }
 });
 
+document.getElementById('settings').addEventListener('click', (event) => {
+  const mainPage = document.getElementById('main-page');
+  const SettingsPage = document.getElementById('settings-page');
+
+  if(mainPage.style.display == 'none'){
+    mainPage.style.display = 'flex';
+    SettingsPage.style.display = 'none';
+  } else {
+    mainPage.style.display = 'none';
+    SettingsPage.style.display = 'flex';
+  }
+});
+
+document.getElementById('toggle-translation').addEventListener('change', (event) => {
+  const translationDiv = document.getElementById('translation');
+  translationDiv.style.display = event.target.checked ? 'flex' : 'none';
+});
+
 loadRandomKanji();
