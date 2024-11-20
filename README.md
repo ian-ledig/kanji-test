@@ -1,4 +1,4 @@
-# Kanji Test
+# Japanese Kanji Test
 
 Kanji Test is an interactive application designed to help users learn and memorize Japanese kanji characters. The app provides a simple, yet effective way to practice kanji readings (kana) by displaying random kanji and prompting the user to input the correct kana. It's perfect for beginners and those looking to reinforce their knowledge of kanji.
 
@@ -64,6 +64,10 @@ If you get the correct answer, the app will load a new kanji for you to practice
 ## Author
 
 This project is developed by Ian LEDIG. I created this app to help learners practice Japanese kanji in a fun and interactive way. Feel free to contribute, suggest improvements, or report issues!
+
+## Contributor
+
+Thanks to [David Gouveia](https://github.com/davidluzgouveia) for the kanji list.
 
 ## Screen
 
