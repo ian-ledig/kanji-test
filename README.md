@@ -73,8 +73,9 @@ Thanks to [David Gouveia](https://github.com/davidluzgouveia) for the kanji list
 
 Below is a screenshot of the application in action:
 
-![kanjitest0](https://github.com/user-attachments/assets/a0e41fb7-b08a-4d98-bafe-4f69d70e39b9)
-![kanjitest1](https://github.com/user-attachments/assets/0a53c660-5e96-412f-872c-f6b62d79743b)
+![kanjitest0](https://github.com/user-attachments/assets/8d55e643-ee0e-4764-87b3-f6e1c9e02743)
+![kanjitest1](https://github.com/user-attachments/assets/37e2f330-ce96-49c9-a451-a244090aea9f)
+![kanjitest2](https://github.com/user-attachments/assets/df75ac52-d82c-44e7-acfa-b10af519a1b6)
 
 The screen displays a random kanji character with an input box for typing the correct kana. You can see the feedback after entering your answer.
 
