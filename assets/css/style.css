@@ -68,6 +68,19 @@ input {
   width: 3%;
 }
 
+#count{
+  font-family: 'Roboto Mono', monospace;
+  position: absolute;
+  top: 1px;
+  font-size: 12px;
+  font-weight: bold;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-align: center;
+  width: 3%;
+}
+
 #close {
   font-family: 'Roboto Mono', monospace;
   position: absolute;

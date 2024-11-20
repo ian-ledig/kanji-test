@@ -148,3 +148,58 @@
 手　て　Main
 言　い　Dire
 売　うる　Vendre
+見　みる　Voir
+音　おと　Son
+会　あう　Rencontrer
+行　いく　Aller
+使　つかう　Utiliser
+彼　かれ　Il, petit ami
+妹　いもうと　Petite sœur
+兄　あに　Grand frère
+姉　あね　Grande sœur
+村　むら　Village
+道　みち　Route, chemin
+海　うみ　Mer
+星　ほし　Étoile
+森　もり　Forêt
+石　いし　Pierre
+竹　たけ　Bambou
+鳥居　とりい　Portique shinto
+船　ふね　Bateau
+橋　はし　Pont
+絵　え　Dessin, peinture
+犬　いぬ　Chien
+猫　ねこ　Chat
+箱　はこ　Boîte
+鏡　かがみ　Miroir
+花瓶　かびん　Vase
+机　つくえ　Bureau, table
+椅子　いす　Chaise
+壁　かべ　Mur
+窓　まど　Fenêtre
+部屋　へや　Chambre, pièce
+庭　にわ　Jardin
+屋根　やね　Toit
+階段　かいだん　Escalier
+地下　ちか　Sous-sol
+鏡餅　かがみもち　Mochi de Nouvel An
+天井　てんじょう　Plafond
+床　ゆか　Sol
+祭り　まつり　Festival
+神　かみ　Dieu
+天使　てんし　Ange
+鬼　おに　Démon
+竜　りゅう　Dragon
+虎　とら　Tigre
+熊　くま　Ours
+亀　かめ　Tortue
+鯨　くじら　Baleine
+椿　つばき　Camélia
+桜　さくら　Cerisier
+梅　うめ　Prunier
+桃　もも　Pêcher
+柿　かき　Kaki
+梨　なし　Poirier
+葡萄　ぶどう　Raisin
+林檎　りんご　Pomme
+蜜柑　みかん　Mandarine

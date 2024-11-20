@@ -29,6 +29,9 @@ document.getElementById('input').addEventListener('keydown', (event) => {
     if (userInput.localeCompare(currentKanji.kana, undefined, { sensitivity: 'base' }) === 0) {
       document.getElementById('log').textContent = '';
       loadRandomKanji();
+
+      const count = document.getElementById('count');
+      count.textContent = parseInt(count.textContent) + 1;
     } else {
       document.getElementById('log').textContent = `Correction: ${currentKanji.kana}`;
     }
