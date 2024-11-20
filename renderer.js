@@ -10,10 +10,31 @@ const kanjiList = fs.readFileSync(kanjiFilePath, 'utf-8')
     return { kanji, kana, translation };
   });
 
+let count = 0;
 let currentKanji = {};
+let errors = {};
 
 function loadRandomKanji() {
-  currentKanji = kanjiList[Math.floor(Math.random() * kanjiList.length)];
+  if(count % 3 === 1 && errors.length !== 0){
+    // review previous mistakes
+    const errorKanji = Object.keys(errors).reduce((a, b) => errors[a] > errors[b] ? a : b);
+    currentKanji = kanjiList.find(kanji => kanji.kanji === errorKanji);
+
+    errors[errorKanji] = Math.max(0, errors[errorKanji] - 1);
+    if (errors[errorKanji] === 0) {
+      delete errors[errorKanji];
+    }
+
+    const mainPage = document.getElementById('main-page');
+    mainPage.style.backgroundColor = '#fcf3cf';
+  } else {
+    // load random kanji
+    currentKanji = kanjiList[Math.floor(Math.random() * kanjiList.length)];
+
+    const mainPage = document.getElementById('main-page');
+    mainPage.style.backgroundColor = '#F9F6EE';
+  }
+
   document.getElementById('kanji').textContent = currentKanji.kanji;
   document.getElementById('translation').textContent = `${currentKanji.translation}`;
 }
@@ -30,9 +51,10 @@ document.getElementById('input').addEventListener('keydown', (event) => {
       document.getElementById('log').textContent = '';
       loadRandomKanji();
 
-      const count = document.getElementById('count');
-      count.textContent = parseInt(count.textContent) + 1;
+      count++;
+      document.getElementById('count').textContent = count;
     } else {
+      errors[currentKanji.kanji] = errors[currentKanji.kanji] + 3;
       document.getElementById('log').textContent = `Correction: ${currentKanji.kana}`;
     }
     document.getElementById('input').value = '';

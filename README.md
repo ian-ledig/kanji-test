@@ -8,7 +8,17 @@ Kanji Test is an interactive application designed to help users learn and memori
 - **Kana Input**: Test your knowledge by typing the correct kana for each displayed kanji.
 - **Real-time Feedback**: The app will inform you whether your answer is correct or incorrect and help you learn the correct kana if necessary.
 - **Automatic Revision**: If you close the application, it will automatically reopen after 10 minutes for effective revision. This ensures that you can continue practicing without forgetting what you've learned.
+- **Translation Option**: You can choose to enable or disable the translation feature, tailoring the experience to your preference or learning needs.
+- **Intelligent Error Correction**: The app features an intelligent system that highlights and revisits specific kanji or kana you frequently make mistakes on, helping you strengthen your weak points.
 - **Simple and Intuitive Interface**: The app has a clean, user-friendly interface to focus solely on learning kanji.
+
+Random Kanji Display: The app shows random kanji characters from a list, making it easy to practice new ones regularly.
+Kana Input: Test your knowledge by typing the correct kana for each displayed kanji.
+Real-time Feedback: The app will inform you whether your answer is correct or incorrect and help you learn the correct kana if necessary.
+Automatic Revision: If you close the application, it will automatically reopen after 10 minutes for effective revision. This ensures that you can continue practicing without forgetting what you've learned.
+Translation Option: You can choose to enable or disable the translation feature, tailoring the experience to your preference or learning needs.
+Intelligent Error Correction: The app features an intelligent system that highlights and revisits specific kanji or kana you frequently make mistakes on, helping you strengthen your weak points.
+Simple and Intuitive Interface: The app has a clean, user-friendly interface to focus solely on learning kanji.
 
 ## Installation
 
