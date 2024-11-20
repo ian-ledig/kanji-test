@@ -12,6 +12,14 @@ body {
   height: 100vh;
 }
 
+#settings-page{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100vh;
+}
+
 #translation {
   display: none;
   margin-top: 20px;
@@ -29,7 +37,7 @@ div {
   width: 100%;
 }
 
-input {
+#kana-input {
   width: 80%;
   border-radius: 5px;
   background: rgb(249, 250, 250);
@@ -49,8 +57,26 @@ input {
   }
 }
 
-#settings-page{
-  display: none;
+#level{
+  margin-bottom: 10px;
+}
+
+#setting-input {
+  width: 30%;
+  border-radius: 5px;
+  background: rgb(249, 250, 250);
+  border: 1px solid rgb(181, 189, 196);
+  font-size: 16px;
+  padding: 3px 8px;
+  color: rgb(8, 9, 10);
+  box-shadow: none;
+  text-align: center;
+  margin-top: 20px;
+  :focus{
+      background-color: #fff;
+      border-color: #3b49df;
+      box-shadow: 1px 1px 0 #3b49df;
+  }
 }
 
 #settings {
@@ -115,7 +141,7 @@ input {
   cursor: pointer;
   -webkit-tap-highlight-color: transparent;
   transform: translate3d(0, 0, 0);
-  margin-top: 40px;
+  margin-top: 20px;
 }
 .checkbox-wrapper .toggle:before {
   content: "";
@@ -155,16 +181,16 @@ input {
   pointer-events: none;
 }
 
-.checkbox-wrapper #toggle-translation:checked + .toggle:before {
+.checkbox-wrapper :checked + .toggle:before {
   background: #aeb6bf;
 }
-.checkbox-wrapper #toggle-translation:checked + .toggle span {
+.checkbox-wrapper :checked + .toggle span {
   background: #85929e;
   transform: translateX(20px);
   transition: all 0.2s cubic-bezier(0.8, 0.4, 0.3, 1.25), background 0.15s ease;
   box-shadow: 0 3px 8px rgba(214, 219, 223, 0.2);
 }
-.checkbox-wrapper #toggle-translation:checked + .toggle span:before {
+.checkbox-wrapper :checked + .toggle span:before {
   transform: scale(1);
   opacity: 0;
   transition: all 0.4s ease;
