@@ -60,6 +60,30 @@ function loadRandomKanji() {
   else{
     document.getElementById('answer').textContent = '';
   }
+  
+  adjustFontSize();
+}
+
+function adjustFontSize() {
+  const kanjiDiv = document.getElementById('kanji');
+  const maxWidth = kanjiDiv.offsetWidth;
+  let fontSize = parseInt(window.getComputedStyle(kanjiDiv).fontSize);
+  const text = kanjiDiv.innerText || kanjiDiv.textContent;
+
+  const tempSpan = document.createElement('span');
+  tempSpan.style.visibility = 'hidden';
+  tempSpan.style.whiteSpace = 'nowrap';
+  tempSpan.style.fontSize = `${fontSize}px`;
+  tempSpan.textContent = text;
+  document.body.appendChild(tempSpan);
+
+  while (tempSpan.offsetWidth > maxWidth && fontSize > 1) {
+      fontSize--;
+      tempSpan.style.fontSize = `${fontSize}px`;
+  }
+
+  kanjiDiv.style.fontSize = `${fontSize}px`;
+  document.body.removeChild(tempSpan);
 }
 
 document.getElementById('close').addEventListener('click', () => {
