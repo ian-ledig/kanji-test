@@ -123,9 +123,23 @@ div {
   width: 3%;
 }
 
+#version {
+  font-family: 'Roboto Mono', monospace;
+  position: absolute;
+  bottom: 0px;
+  right: 15px;
+  font-size: 12px;
+  font-weight: bold;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-align: center;
+  width: 3%;
+}
+
 #answer {
   font-size: 14px;
-  color: #27ae60;
+  color: #196f3d;
   min-height: 20px;
 }
 

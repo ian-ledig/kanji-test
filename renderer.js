@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const { shell } = require('electron');
 
 const kanjiFilePath = path.join(__dirname, 'assets', 'db', 'all.json');
 const kanjiData = JSON.parse(fs.readFileSync(kanjiFilePath, 'utf-8'));
@@ -117,6 +118,10 @@ document.getElementById('setting-input').addEventListener('change', (event) => {
   level = parseInt(event.target.value);
   loadKanjiList(level);
   loadRandomKanji();
+});
+document.getElementById('version').addEventListener('click', (event) => {
+  event.preventDefault();
+  shell.openExternal(event.target.href);
 });
 
 loadKanjiList(5);
