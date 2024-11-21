@@ -53,6 +53,7 @@ function loadRandomKanji() {
 
   document.getElementById('kanji').textContent = currentKanji.kanji;
   document.getElementById('translation').textContent = `${currentKanji.translation}`;
+  document.getElementById('answer').style.color = '#196f3d';
   if(showAnswer){
     document.getElementById('answer').textContent = `${currentKanji.kana}`;
   }
@@ -79,6 +80,7 @@ document.getElementById('kana-input').addEventListener('keydown', (event) => {
       document.getElementById('count').textContent = count;
     } else {
       errors[currentKanji.kanji] = (errors[currentKanji.kanji] || 0) + 3;
+      document.getElementById('answer').style.color = '#7b241c';
       document.getElementById('answer').textContent = `${currentKanji.kana}`;
     }
     document.getElementById('kana-input').value = '';
