@@ -1,17 +1,16 @@
 const fs = require('fs');
 const path = require('path');
 
-const kanjiFilePath = path.join(__dirname, 'assets', 'kanji-jouyou.json');
+const kanjiFilePath = path.join(__dirname, 'assets', 'db', 'all.json');
 const kanjiData = JSON.parse(fs.readFileSync(kanjiFilePath, 'utf-8'));
 
 let kanjiList = [];
 let count = 0;
 let currentKanji = {};
 let errors = {};
-let kun = true;
 let level = 5;
 
-function loadKanjiList(level, kun) {
+function loadKanjiList(level) {
   kanjiList = [];
   errors = {};
   
@@ -19,15 +18,14 @@ function loadKanjiList(level, kun) {
   document.getElementById('translation').textContent = '';
   document.getElementById('log').textContent = '';
 
-  kanjiList = Object.entries(kanjiData)
-    .filter(([_, details]) => details.jlpt_new === level)
-    .map(([kanji, details]) => ({
-      kanji,
-      kana: kun 
-        ? (details.readings_kun.length > 0 ? details.readings_kun[0] : details.readings_on[0])
-        : (details.readings_on.length > 0 ? details.readings_on[0] : details.readings_kun[0]),
-      translation: details.meanings[0],
-    }));
+  kanjiList = kanjiData
+  .filter(item => item.level === level)
+  .filter(item => item.furigana && item.furigana.trim() !== "")
+  .map(item => ({
+    kanji: item.word,
+    kana: item.furigana,
+    translation: item.meaning
+  }));
 }
 
 function loadRandomKanji() {
@@ -102,16 +100,11 @@ document.getElementById('toggle-translation').addEventListener('change', (event)
   const translationDiv = document.getElementById('translation');
   translationDiv.style.display = event.target.checked ? 'flex' : 'none';
 });
-document.getElementById('toggle-kun').addEventListener('change', (event) => {
-  kun = !event.target.checked;
-  loadKanjiList(level, kun);
-  loadRandomKanji();
-});
 document.getElementById('setting-input').addEventListener('change', (event) => {
   level = parseInt(event.target.value);
-  loadKanjiList(level, kun);
+  loadKanjiList(level);
   loadRandomKanji();
 });
 
-loadKanjiList(5, true);
+loadKanjiList(5);
 loadRandomKanji();
