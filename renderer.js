@@ -57,6 +57,9 @@ function loadRandomKanji() {
   if(showAnswer){
     document.getElementById('answer').textContent = `${currentKanji.kana}`;
   }
+  else{
+    document.getElementById('answer').textContent = '';
+  }
 }
 
 document.getElementById('close').addEventListener('click', () => {
