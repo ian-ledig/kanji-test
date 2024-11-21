@@ -63,7 +63,7 @@ If you get the correct answer, the app will load a new kanji for you to practice
 
 ## Author
 
-This project is developed by Ian LEDIG. I created this app to help learners practice Japanese kanji in a fun and interactive way. Feel free to contribute, suggest improvements, or report issues!
+This project is developed by [Ian LEDIG](https://github.com/ian-ledig). I created this app to help learners practice Japanese kanji in a fun and interactive way. Feel free to contribute, suggest improvements, or report issues!
 
 ## Contributor
 
