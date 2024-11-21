@@ -9,6 +9,7 @@ let count = 0;
 let currentKanji = {};
 let errors = {};
 let level = 5;
+let showAnswer = false;
 
 function loadKanjiList(level) {
   kanjiList = [];
@@ -16,7 +17,7 @@ function loadKanjiList(level) {
   
   document.getElementById('kanji').textContent = '';
   document.getElementById('translation').textContent = '';
-  document.getElementById('log').textContent = '';
+  document.getElementById('answer').textContent = '';
 
   kanjiList = kanjiData
   .filter(item => item.level === level)
@@ -51,6 +52,9 @@ function loadRandomKanji() {
 
   document.getElementById('kanji').textContent = currentKanji.kanji;
   document.getElementById('translation').textContent = `${currentKanji.translation}`;
+  if(showAnswer){
+    document.getElementById('answer').textContent = `${currentKanji.kana}`;
+  }
 }
 
 document.getElementById('close').addEventListener('click', () => {
@@ -69,14 +73,12 @@ document.getElementById('kana-input').addEventListener('keydown', (event) => {
         { sensitivity: 'base' }
       ) === 0
     ) {
-      document.getElementById('log').textContent = '';
       loadRandomKanji();
-
       count++;
       document.getElementById('count').textContent = count;
     } else {
       errors[currentKanji.kanji] = (errors[currentKanji.kanji] || 0) + 3;
-      document.getElementById('log').textContent = `Correction: ${currentKanji.kana}`;
+      document.getElementById('answer').textContent = `${currentKanji.kana}`;
     }
     document.getElementById('kana-input').value = '';
   }
@@ -99,6 +101,17 @@ document.getElementById('settings').addEventListener('click', (event) => {
 document.getElementById('toggle-translation').addEventListener('change', (event) => {
   const translationDiv = document.getElementById('translation');
   translationDiv.style.display = event.target.checked ? 'flex' : 'none';
+});
+document.getElementById('toggle-answer').addEventListener('change', (event) => {
+  showAnswer = event.target.checked;
+  const answerDiv = document.getElementById('answer');
+
+  if(showAnswer){
+    answerDiv.textContent = `${currentKanji.kana}`;
+  }
+  else{
+    answerDiv.textContent = '';
+  }
 });
 document.getElementById('setting-input').addEventListener('change', (event) => {
   level = parseInt(event.target.value);
