@@ -14,6 +14,9 @@
     <div id="settings">
         <i class="fas fa-cog"></i>
     </div>
+    <div id="back">
+        <i class="fa-solid fa-arrow-left"></i>
+    </div>
     <div id="main-page">
         <div id="count">0</div>
         <div id="translation"></div>
@@ -29,21 +32,38 @@
             autocomplete="off"
         >
     </div>
-    <div id="settings-page">
-        <a id="version" href="https://github.com/ian-ledig/kanji-test/releases/tag/1.1">1.1</a>
-        <div class="checkbox-wrapper">
-            <input type="checkbox" id="toggle-translation" />
-            <label for="toggle-translation" class="toggle"><span></span></label>
-            <span>Show translations</span>
+    <div class="settings-page" id="settings-page">
+        <div class="category">
+            <a id="version" href="https://github.com/ian-ledig/kanji-test">1.2</a>
+            <div class="checkbox-wrapper">
+                <input type="checkbox" id="toggle-translation" />
+                <label for="toggle-translation" class="toggle"><span></span></label>
+                <div>Show translations</div>
+            </div>
+            <div class="checkbox-wrapper">
+                <input type="checkbox" id="toggle-answer" />
+                <label for="toggle-answer" class="toggle"><span></span></label>
+                <div>Show answers</div>
+            </div>
         </div>
-        <div class="checkbox-wrapper">
-            <input type="checkbox" id="toggle-answer" />
-            <label for="toggle-answer" class="toggle"><span></span></label>
-            <span>Show answers</span>
+        <div class="category">
+            <div class="row">
+                <input type="radio" name="words-list" id="words-list"/>
+                <div id="words-list-button">
+                    <i class="fas fa-cog"></i>
+                </div>
+                <div>Custom vocabulary</div>
+            </div>
+            <div class="row">
+                <input type="radio" name="words-list" id="language-level" checked/>
+                <input type="number" id="setting-input" name="setting-input" min="1" max="5" value="5">
+                <div>Language level</div>
+            </div>
         </div>
-        <div id="level">
-            <input type="number" id="setting-input" name="setting-input" min="1" max="5" value="5">
-            <span>Language level</span>
+    </div>
+    <div class="settings-page" id="words-list-page">
+        <div class="category" id="words-list-category">
+            
         </div>
     </div>
     <script src="renderer.js"></script>

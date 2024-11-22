@@ -9,9 +9,10 @@ Vocabulary Test is an interactive application designed to help users learn and m
 - **Real-time Feedback**: The app will inform you whether your answer is correct or incorrect and help you learn the correct kana if necessary.
 - **Automatic Revision**: If you close the application, it will automatically reopen after 10 minutes for effective revision. This ensures that you can continue practicing without forgetting what you've learned.
 - **Intelligent Error Correction**: The app features an intelligent system that highlights and revisits specific words you frequently make mistakes on, helping you strengthen your weak points.
-- **Show translation Option**: You can choose to show the translation of words.
-- **Show answer Option**: You can choose to show the answers before entering it.
+- **Show Translation Option**: You can choose to show the translation of words.
+- **Show Answer Option**: You can choose to show the answers before entering it.
 - **Vocabulary Level Selection**: You can select the level of difficulty from JLPT levels 5 to 1, allowing you to practice vocabulary at your own proficiency level.
+- **Custom Words List**: Allow importing custom word list in the application by placing `json` files in `assets/db/custom`.
 
 ## Installation
 

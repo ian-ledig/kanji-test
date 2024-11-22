@@ -3,7 +3,7 @@ const path = require('path');
 const { shell } = require('electron');
 
 const kanjiFilePath = path.join(__dirname, 'assets', 'db', 'all.json');
-const kanjiData = JSON.parse(fs.readFileSync(kanjiFilePath, 'utf-8'));
+const customFolderPath = path.join(__dirname, 'assets', 'db', 'custom');
 
 let kanjiList = [];
 let count = 0;
@@ -11,23 +11,91 @@ let currentKanji = {};
 let errors = {};
 let level = 5;
 let showAnswer = false;
+let wordsCustom = false;
 
-function loadKanjiList(level) {
+function loadKanjiList() { 
   kanjiList = [];
   errors = {};
-  
+
   document.getElementById('kanji').textContent = '';
   document.getElementById('translation').textContent = '';
   document.getElementById('answer').textContent = '';
 
-  kanjiList = kanjiData
-  .filter(item => item.level === level)
-  .filter(item => item.furigana && item.furigana.trim() !== "")
-  .map(item => ({
-    kanji: item.word,
-    kana: item.furigana,
-    translation: item.meaning
-  }));
+  if (wordsCustom) {
+    const checkedFiles = Array.from(document.querySelectorAll('#words-list-page input[type="checkbox"]:checked'))
+      .map(checkbox => checkbox.dataset.file);
+
+    if (checkedFiles.length > 0) {
+      checkedFiles.forEach(file => {
+        const filePath = path.join(customFolderPath, file);
+        const fileContent = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+        kanjiList.push(
+          ...fileContent.content.map(item => ({
+            kanji: item.word,
+            kana: item.furigana,
+            translation: item.meaning,
+          }))
+        );
+      });
+    }
+  } else {
+    kanjiList = JSON.parse(fs.readFileSync(kanjiFilePath, 'utf-8'))
+    .filter(item => item.level === level)
+    .filter(item => item.furigana && item.furigana.trim() !== "")
+    .map(item => ({
+      kanji: item.word,
+      kana: item.furigana,
+      translation: item.meaning
+    }));
+  }
+
+  loadRandomKanji();
+}
+
+function loadCustomFiles() {
+  const categoryDiv = document.getElementById('words-list-category');
+
+  fs.readdir(customFolderPath, (err, files) => {
+    if (err) {
+      console.error("Can't find custom folder:", err);
+      return;
+    }
+
+    const jsonFiles = files.filter(file => file.endsWith('.json'));
+
+    jsonFiles.forEach(file => {
+      const filePath = path.join(customFolderPath, file);
+      const fileContent = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+      const fileName = fileContent.name || file.replace('.json', '');
+
+      const checkboxWrapper = document.createElement('div');
+      checkboxWrapper.classList.add('checkbox-wrapper');
+
+      const inputCheckbox = document.createElement('input');
+      inputCheckbox.type = 'checkbox';
+      inputCheckbox.id = `toggle-${fileName}`;
+      inputCheckbox.dataset.file = file;
+      inputCheckbox.checked = true;
+      inputCheckbox.addEventListener('change', handleCheckboxChange);
+
+      const label = document.createElement('label');
+      label.setAttribute('for', `toggle-${fileName}`);
+      label.classList.add('toggle');
+      label.innerHTML = '<span></span>';
+
+      const divName = document.createElement('div');
+      divName.textContent = fileName;
+
+      checkboxWrapper.appendChild(inputCheckbox);
+      checkboxWrapper.appendChild(label);
+      checkboxWrapper.appendChild(divName);
+      categoryDiv.appendChild(checkboxWrapper);
+    });
+  });
+}
+
+function handleCheckboxChange(event) {
+  loadKanjiList();
 }
 
 function loadRandomKanji() {
@@ -52,43 +120,15 @@ function loadRandomKanji() {
   }
 
   document.getElementById('kanji').textContent = currentKanji.kanji;
-  document.getElementById('translation').textContent = `${currentKanji.translation}`;
+  document.getElementById('translation').textContent = currentKanji.translation;
   document.getElementById('answer').style.color = '#196f3d';
   if(showAnswer){
-    document.getElementById('answer').textContent = `${currentKanji.kana}`;
+    document.getElementById('answer').textContent = currentKanji.kana;
   }
   else{
     document.getElementById('answer').textContent = '';
   }
-  
-  adjustFontSize();
 }
-
-function adjustFontSize() {
-  const kanjiDiv = document.getElementById('kanji');
-  const maxWidth = kanjiDiv.offsetWidth;
-  let fontSize = parseInt(window.getComputedStyle(kanjiDiv).fontSize);
-  const text = kanjiDiv.innerText || kanjiDiv.textContent;
-
-  const tempSpan = document.createElement('span');
-  tempSpan.style.visibility = 'hidden';
-  tempSpan.style.whiteSpace = 'nowrap';
-  tempSpan.style.fontSize = `${fontSize}px`;
-  tempSpan.textContent = text;
-  document.body.appendChild(tempSpan);
-
-  while (tempSpan.offsetWidth > maxWidth && fontSize > 1) {
-      fontSize--;
-      tempSpan.style.fontSize = `${fontSize}px`;
-  }
-
-  kanjiDiv.style.fontSize = `${fontSize}px`;
-  document.body.removeChild(tempSpan);
-}
-
-document.getElementById('close').addEventListener('click', () => {
-  window.close();
-});
 
 document.getElementById('kana-input').addEventListener('keydown', (event) => {
   if (event.key === 'Enter') {
@@ -117,18 +157,43 @@ document.getElementById('kana-input').addEventListener('keydown', (event) => {
   }
 });
 
-
 document.getElementById('settings').addEventListener('click', (event) => {
   const mainPage = document.getElementById('main-page');
   const settingsPage = document.getElementById('settings-page');
+  const wordsListPage = document.getElementById('words-list-page');
+  const backDiv = document.getElementById('back');
 
   if (mainPage.style.display == 'none') {
     mainPage.style.display = 'flex';
     settingsPage.style.display = 'none';
+    wordsListPage.style.display = 'none';
   } else {
     mainPage.style.display = 'none';
     settingsPage.style.display = 'flex';
   }
+  backDiv.style.display = 'none';
+});
+
+document.getElementById('back').addEventListener('click', (event) => {
+  const settingsPage = document.getElementById('settings-page');
+  const wordsListPage = document.getElementById('words-list-page');
+  const backDiv = document.getElementById('back');
+
+  wordsListPage.style.display = 'none';
+  settingsPage.style.display = 'flex';
+  backDiv.style.display = 'none';
+});
+
+document.getElementById('words-list-button').addEventListener('click', (event) => {
+  const settingsPage = document.getElementById('settings-page');
+  const wordsListPage = document.getElementById('words-list-page');
+  const BackDiv = document.getElementById('back');
+
+  settingsPage.style.display = 'none';
+  wordsListPage.style.display = 'flex';
+  BackDiv.style.display = 'flex';
+
+  loadKanjiList();
 });
 
 // settings
@@ -147,9 +212,17 @@ document.getElementById('toggle-answer').addEventListener('change', (event) => {
     answerDiv.textContent = '';
   }
 });
+document.getElementById('words-list').addEventListener('change', (event) => {
+  wordsCustom = event.target.checked;
+  loadKanjiList();
+});
+document.getElementById('language-level').addEventListener('change', (event) => {
+  wordsCustom = !event.target.checked;
+  loadKanjiList();
+});
 document.getElementById('setting-input').addEventListener('change', (event) => {
   level = parseInt(event.target.value);
-  loadKanjiList(level);
+  loadKanjiList();
   loadRandomKanji();
 });
 document.getElementById('version').addEventListener('click', (event) => {
@@ -157,5 +230,5 @@ document.getElementById('version').addEventListener('click', (event) => {
   shell.openExternal(event.target.href);
 });
 
-loadKanjiList(5);
-loadRandomKanji();
+loadCustomFiles();
+loadKanjiList();
