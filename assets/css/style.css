@@ -1,4 +1,5 @@
 body {
+  font-family: 'Roboto Mono', monospace;
   background-color: #F9F6EE;
   margin: 0;
   padding: 0;
@@ -81,7 +82,6 @@ div {
 }
 
 #settings {
-  font-family: 'Roboto Mono', monospace;
   position: absolute;
   top: 1px;
   left: 1px;
@@ -96,7 +96,6 @@ div {
 }
 
 #count{
-  font-family: 'Roboto Mono', monospace;
   position: absolute;
   top: 1px;
   font-size: 12px;
@@ -109,7 +108,6 @@ div {
 }
 
 #close {
-  font-family: 'Roboto Mono', monospace;
   position: absolute;
   top: 1px;
   right: 1px;
@@ -124,11 +122,10 @@ div {
 }
 
 #version {
-  font-family: 'Roboto Mono', monospace;
   position: absolute;
   bottom: 0px;
-  right: 15px;
-  font-size: 12px;
+  right: 10px;
+  font-size: 10px;
   font-weight: bold;
   border: none;
   padding: 5px 10px;
