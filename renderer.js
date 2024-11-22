@@ -94,14 +94,17 @@ document.getElementById('kana-input').addEventListener('keydown', (event) => {
   if (event.key === 'Enter') {
     const userInput = document.getElementById('kana-input').value.trim();
 
-    const cleanedKana = currentKanji.kana.replace(/[-.]/g, '');
-    if (
+    // if there is multiple kana options, we accept any of them
+    const kanaOptions = currentKanji.kana.split('/').map(k => k.trim());
+    const isCorrect = kanaOptions.some(kana => 
       userInput.localeCompare(
-        cleanedKana,
+        kana.replace(/[-.]/g, ''),
         undefined,
         { sensitivity: 'base' }
       ) === 0
-    ) {
+    );
+
+    if (isCorrect) {
       loadRandomKanji();
       count++;
       document.getElementById('count').textContent = count;
@@ -113,6 +116,7 @@ document.getElementById('kana-input').addEventListener('keydown', (event) => {
     document.getElementById('kana-input').value = '';
   }
 });
+
 
 document.getElementById('settings').addEventListener('click', (event) => {
   const mainPage = document.getElementById('main-page');
