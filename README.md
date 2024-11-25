@@ -69,9 +69,9 @@ Thanks to [Kei](https://github.com/wkei) for the vocabulary list.
 
 Below is a screenshot of the application in action:
 
-![kanjitest0](https://github.com/user-attachments/assets/8d55e643-ee0e-4764-87b3-f6e1c9e02743)
-![kanjitest1](https://github.com/user-attachments/assets/37e2f330-ce96-49c9-a451-a244090aea9f)
-![kanjitest2](https://github.com/user-attachments/assets/df75ac52-d82c-44e7-acfa-b10af519a1b6)
+![kanjitest0](https://github.com/user-attachments/assets/22ce9675-a9d9-43f8-b6a3-2a8b0441102b)
+![kanjitest1](https://github.com/user-attachments/assets/4ec6d636-56b0-400e-8eea-50fc3679fde2)
+![kanjitest2](https://github.com/user-attachments/assets/8278994e-78b2-41d3-a125-176bfd6d7be4)
 
 The screen displays a random word with an input box for typing the correct kana. You can see the feedback after entering your answer.
 
