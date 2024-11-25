@@ -1,0 +1,18 @@
+{
+    "name": "Les mois de l'année",
+    "content":
+    [
+        {"word":"一月","meaning":"janvier","furigana":"イチガツ"},
+        {"word":"二月","meaning":"fevrier","furigana":"ニガツ"},
+        {"word":"三月","meaning":"mars","furigana":"サンガツ"},
+        {"word":"四月","meaning":"avril","furigana":"シガツ"},
+        {"word":"五月","meaning":"mai","furigana":"ゴガツ"},
+        {"word":"六月","meaning":"juin","furigana":"ロクガツ"},
+        {"word":"七月","meaning":"juillet","furigana":"シチガツ"},
+        {"word":"八月","meaning":"aout","furigana":"ハチガツ"},
+        {"word":"九月","meaning":"septembre","furigana":"クガツ"},
+        {"word":"十月","meaning":"octobre","furigana":"ジュウガツ"},
+        {"word":"十一月","meaning":"novembre","furigana":"ジュウイチガツ"},
+        {"word":"十二月","meaning":"decembre","furigana":"ジュウニガツ"}
+    ]
+}

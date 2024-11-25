@@ -1,0 +1,27 @@
+{
+    "name": "Le corps humain",
+    "content":
+    [
+        {"word":"頭","meaning":"la tete","furigana":"あたま"},
+        {"word":"髪","meaning":"les cheveux","furigana":"かみ"},
+        {"word":"目","meaning":"l'oeil","furigana":"め"},
+        {"word":"耳","meaning":"l'oreille","furigana":"みみ"},
+        {"word":"鼻","meaning":"le nez","furigana":"はな"},
+        {"word":"口","meaning":"la bouche","furigana":"くち"},
+        {"word":"髭","meaning":"la barbe","furigana":"ひげ"},
+        {"word":"口髭","meaning":"la moustache","furigana":"くちひげ"},
+        {"word":"肩","meaning":"l'epaule","furigana":"かた"},
+        {"word":"腕","meaning":"le bras","furigana":"うで"},
+        {"word":"手","meaning":"la main","furigana":"て"},
+        {"word":"指","meaning":"le doigt","furigana":"ゆび"},
+        {"word":"胸","meaning":"la poitrine","furigana":"むね"},
+        {"word":"腹","meaning":"le ventre","furigana":"はら"},
+        {"word":"背中","meaning":"le dos","furigana":"せなか"},
+        {"word":"尻","meaning":"les fesses","furigana":"しり"},
+        {"word":"足","meaning":"la jambe, le pied","furigana":"あし"},
+        {"word":"翼","meaning":"l'aile","furigana":"つばさ"},
+        {"word":"羽","meaning":"la plume","furigana":"はね"},
+        {"word":"尻尾","meaning":"la queue","furigana":"しっぽ"},
+        {"word":"毛","meaning":"le poil","furigana":"け"}
+    ]
+}

@@ -75,7 +75,7 @@ function loadCustomFiles() {
       inputCheckbox.type = 'checkbox';
       inputCheckbox.id = `toggle-${fileName}`;
       inputCheckbox.dataset.file = file;
-      inputCheckbox.checked = true;
+      inputCheckbox.checked = false;
       inputCheckbox.addEventListener('change', handleCheckboxChange);
 
       const label = document.createElement('label');
@@ -194,6 +194,10 @@ document.getElementById('words-list-button').addEventListener('click', (event) =
   BackDiv.style.display = 'flex';
 
   loadKanjiList();
+});
+
+document.getElementById('close').addEventListener('click', () => {
+  window.close();
 });
 
 // settings

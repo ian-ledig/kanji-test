@@ -1,0 +1,26 @@
+{
+    "name": "Les principaux verbes",
+    "content":
+    [
+        {"word":"だ","meaning":"etre (description)","furigana":"だ"},
+        {"word":"する","meaning":"faire","furigana":"する"},
+        {"word":"いる","meaning":"etre (presence humaine)","furigana":"いる"},
+        {"word":"ある","meaning":"etre (presence objet)","furigana":"ある"},
+        {"word":"行く","meaning":"aller","furigana":"いく"},
+        {"word":"来る","meaning":"venir","furigana":"くる"},
+        {"word":"なる","meaning":"devenir","furigana":"なる"},
+        {"word":"食べる","meaning":"manger","furigana":"たべる"},
+        {"word":"飲む","meaning":"boire","furigana":"のむ"},
+        {"word":"寝る","meaning":"dormir","furigana":"ねる"},
+        {"word":"見る","meaning":"regarder","furigana":"みる"},
+        {"word":"聞く","meaning":"ecouter","furigana":"きく"},
+        {"word":"話す","meaning":"parler","furigana":"はなす"},
+        {"word":"書く","meaning":"ecrire","furigana":"かく"},
+        {"word":"読む","meaning":"lire","furigana":"よむ"},
+        {"word":"歩く","meaning":"marcher","furigana":"あるく"},
+        {"word":"知る","meaning":"savoir","furigana":"しる"},
+        {"word":"分かる","meaning":"comprendre","furigana":"わかる"},
+        {"word":"思う","meaning":"penser","furigana":"おもう"},
+        {"word":"言う","meaning":"dire","furigana":"いう"}
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "name": "Les moyens de transport",
+    "content":
+    [
+        {"word":"車","meaning":"voiture","furigana":"くるま"},
+        {"word":"自転車","meaning":"bicyclette","furigana":"ジテンシャ"},
+        {"word":"消防車","meaning":"fourgon d'incendie","furigana":"ショウボウシャ"},
+        {"word":"救急車","meaning":"ambulance","furigana":"キュウキュウシャ"},
+        {"word":"パトロールカー","meaning":"vehicule de police","furigana":"パトロールカー"},
+        {"word":"バイク","meaning":"moto","furigana":"バイク"},
+        {"word":"スクーター","meaning":"scooter","furigana":"スクーター"},
+        {"word":"タクシー","meaning":"taxi","furigana":"タクシー"},
+        {"word":"バス","meaning":"bus","furigana":"バス"},
+        {"word":"列車","meaning":"train","furigana":"レッシャ"},
+        {"word":"路面電車","meaning":"tramway","furigana":"ロメンデンシャ"},
+        {"word":"地下鉄","meaning":"metro","furigana":"チカテツ"},
+        {"word":"トラック","meaning":"camion","furigana":"トラック"},
+        {"word":"船","meaning":"bateau","furigana":"ふね"},
+        {"word":"潜水艦","meaning":"sous-marin","furigana":"センスイカン"},
+        {"word":"飛行機","meaning":"avion","furigana":"ヒコウキ"},
+        {"word":"ヘリコプター","meaning":"helicoptere","furigana":"ヘリコプター"},
+        {"word":"ネツキキュウ","meaning":"montgolfiere","furigana":"ネツキキュウ"},
+        {"word":"索道","meaning":"telepherique","furigana":"サクドウ"},
+        {"word":"オービタ","meaning":"navette spatiale","furigana":"オービタ"}
+    ]
+}

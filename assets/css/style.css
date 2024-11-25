@@ -17,7 +17,8 @@ body {
   display: none;
   flex-direction: column;
   justify-content: space-evenly;
-  height: 100vh;
+  height: 80vh;
+  margin-top: 25px;
   margin-left: 10px;
 }
 

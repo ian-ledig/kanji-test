@@ -1,0 +1,28 @@
+{
+    "name": "Lire l'heure",
+    "content":
+    [
+        {"word":"一時","meaning":"1h","furigana":"イチジ"},
+        {"word":"二時","meaning":"2h","furigana":"ニジ"},
+        {"word":"三時","meaning":"3h","furigana":"サンジ"},
+        {"word":"四時","meaning":"4h","furigana":"よジ"},
+        {"word":"五時","meaning":"5h","furigana":"ゴジ"},
+        {"word":"六時","meaning":"6h","furigana":"ロクジ"},
+        {"word":"七時","meaning":"7h","furigana":"シチジ"},
+        {"word":"八時","meaning":"8h","furigana":"ハチジ"},
+        {"word":"九時","meaning":"9h","furigana":"クジ"},
+        {"word":"十時","meaning":"10h","furigana":"ジュウジ"},
+        {"word":"十一時","meaning":"11h","furigana":"ジュウイチジ"},
+        {"word":"十二時","meaning":"12h","furigana":"ジュウニジ"},
+        {"word":"零時","meaning":"0h","furigana":"レイジ"},
+
+        {"word":"午前","meaning":"(AM) matin","furigana":"ゴゼン"},
+        {"word":"午後","meaning":"(PM) soir","furigana":"ゴゴ"},
+
+        {"word":"正午","meaning":"midi","furigana":"ショウゴ"},
+        {"word":"真夜中","meaning":"minuit","furigana":"まよなか"},
+        
+        {"word":"分","meaning":"minute","furigana":"フン"},
+        {"word":"秒","meaning":"seconde","furigana":"ビョウ"}
+    ]
+}

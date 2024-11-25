@@ -1,7 +1,31 @@
 {
-    "name": "Custom 1",
+    "name": "Les formules de politesse",
     "content":
     [
-        {"word":"ここ","meaning":"nnnnn","furigana":""}
+        {"word":"はい","meaning":"oui","furigana":"はい"},
+        {"word":"いいえ","meaning":"non","furigana":"いいえ"},
+        {"word":"お願いします","meaning":"s'il vous plait","furigana":"おねがいします"},
+        {"word":"ありがとう","meaning":"merci","furigana":"ありがとう"},
+        {"word":"どういたしまして","meaning":"y'a pas de quoi","furigana":"どういたしまして"},
+        {"word":"おはよう","meaning":"bon matin","furigana":"おはよう"},
+        {"word":"こんにちは","meaning":"bonjour","furigana":"こんにちは"},
+        {"word":"こんばんは","meaning":"bonsoir","furigana":"こんばんは"},
+        {"word":"お元気ですか","meaning":"comment vas-tu","furigana":"おげんきですか"},
+        {"word":"元気です","meaning":"je vais bien","furigana":"げんきです"},
+        {"word":"またね","meaning":"au revoir","furigana":"またね"},
+        {"word":"おやすみ","meaning":"bonne nuit","furigana":"おやすみ"},
+        {"word":"また明日","meaning":"a demain","furigana":"またあした"},
+        {"word":"初めまして","meaning":"enchanté","furigana":"はじめまして"},
+        {"word":"どうぞ","meaning":"je vous en prie","furigana":"どうぞ"},
+        {"word":"いただきます","meaning":"bon appetit","furigana":"いただきます"},
+        {"word":"すみません","meaning":"excuse(z)-moi","furigana":"すみません"},
+        {"word":"ごめん","meaning":"pardonnez-moi","furigana":"ごめん"},
+        {"word":"お疲れ様でした","meaning":"bon travail","furigana":"おつかれさまでした"},
+        {"word":"いってきます","meaning":"j'y vais","furigana":"いってきます"},
+        {"word":"いってらっしゃい","meaning":"bonne journee","furigana":"いってらっしゃい"},
+        {"word":"ただいま","meaning":"je suis rentre","furigana":"ただいま"},
+        {"word":"おかえり","meaning":"bon retour","furigana":"おかえり"},
+        {"word":"ようこそ","meaning":"bienvenue","furigana":"ようこそ"},
+        {"word":"お邪魔します","meaning":"je rentre","furigana":"おじゃまします"}
     ]
 }

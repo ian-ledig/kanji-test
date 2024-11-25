@@ -1,0 +1,22 @@
+{
+    "name": "Le complement de temps",
+    "content":
+    [
+        {"word":"昨日","meaning":"hier","furigana":"きのう"},
+        {"word":"今日","meaning":"aujourd'hui","furigana":"きょう"},
+        {"word":"明日","meaning":"demain","furigana":"あした"},
+        {"word":"毎日","meaning":"tous les jours","furigana":"マイニチ"},
+        {"word":"先週","meaning":"la semaine derniere","furigana":"センシュウ"},
+        {"word":"今週","meaning":"cette semaine","furigana":"コンシュウ"},
+        {"word":"来週","meaning":"la semaine prochaine","furigana":"ライシュウ"},
+        {"word":"毎週","meaning":"toutes les semaines","furigana":"マイシュウ"},
+        {"word":"先月","meaning":"le mois dernier","furigana":"センゲツ"},
+        {"word":"今月","meaning":"ce mois-ci","furigana":"コンゲツ"},
+        {"word":"来月","meaning":"le mois prochain","furigana":"ライゲツ"},
+        {"word":"毎月","meaning":"tous les mois","furigana":"マイツキ"},
+        {"word":"去年","meaning":"l'annee derniere","furigana":"キョネン"},
+        {"word":"今年","meaning":"cette annee","furigana":"ことし"},
+        {"word":"来年","meaning":"l'annee prochaine","furigana":"ライネン"},
+        {"word":"毎年","meaning":"tous les ans","furigana":"マイとし"}
+    ]
+}
