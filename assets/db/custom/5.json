@@ -1,0 +1,26 @@
+{
+    "name": "Les animaux domestiques",
+    "content":
+    [
+        {"word":"犬","meaning":"chien","furigana":"いぬ"},
+        {"word":"猫","meaning":"chat","furigana":"ねこ"},
+        {"word":"鳥","meaning":"oiseau","furigana":"とり"},
+        {"word":"魚","meaning":"poisson","furigana":"さかな"},
+        {"word":"狸","meaning":"tanuki","furigana":"たぬき"},
+        {"word":"兎","meaning":"lapin","furigana":"うさぎ"},
+        {"word":"牛","meaning":"vache","furigana":"うし"},
+        {"word":"羊","meaning":"mouton","furigana":"ひつじ"},
+        {"word":"山羊","meaning":"chevre","furigana":"やぎ"},
+        {"word":"豚","meaning":"cochon","furigana":"ぶた"},
+        {"word":"馬","meaning":"cheval","furigana":"うま"},
+        {"word":"鹿","meaning":"cerf","furigana":"しか"},
+        {"word":"ロバ","meaning":"l'ane","furigana":""},
+        {"word":"ラクダ","meaning":"dromadaire","furigana":""},
+        {"word":"鶏","meaning":"poule","furigana":"にわとり"},
+        {"word":"鼠","meaning":"souris","furigana":"ねずみ"},
+        {"word":"リス","meaning":"ecureuil","furigana":""},
+        {"word":"針鼠","meaning":"herisson","furigana":"はりねずみ"},
+        {"word":"ハムスター","meaning":"hamster","furigana":""},
+        {"word":"フェレット","meaning":"furet","furigana":""}
+    ]
+}
