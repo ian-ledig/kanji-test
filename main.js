@@ -8,7 +8,7 @@ app.whenReady().then(() => {
     mainWindow = new BrowserWindow({
         width: 200,
         height: 200,
-        x: width - 5,
+        x: width - 205,
         y: 5,
         alwaysOnTop: true,
         frame: false,
