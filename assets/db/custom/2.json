@@ -1,0 +1,27 @@
+{
+    "name": "Le materiel domestique",
+    "content":
+    [
+        {"word":"ベッド","meaning":"le lit","furigana":"ベッド"},
+        {"word":"ソファ","meaning":"canape","furigana":"ソファ"},
+        {"word":"ペン","meaning":"stylo","furigana":"ペン"},
+        {"word":"ノート","meaning":"cahier","furigana":"ノート"},
+        {"word":"カレンダー","meaning":"calendrier","furigana":"カレンダー"},
+        {"word":"ラジオ","meaning":"radio","furigana":"ラジオ"},
+        {"word":"スデレオ","meaning":"chaine hi-fi","furigana":"スデレオ"},
+        {"word":"テレビ","meaning":"television","furigana":"テレビ"},
+        {"word":"カメラ","meaning":"appareil photo","furigana":"カメラ"},
+        {"word":"コンピュータ","meaning":"ordinateur","furigana":"コンピュータ"},
+        {"word":"パソコン","meaning":"pc","furigana":"パソコン"},
+        {"word":"エアコン","meaning":"climatiseur","furigana":"エアコン"},
+        {"word":"リモコン","meaning":"telecommande","furigana":"リモコン"},
+        {"word":"クレジットカード","meaning":"carte de paiement","furigana":"クレジットカード"},
+        {"word":"ドア","meaning":"porte","furigana":"ドア"},
+        {"word":"ランプ","meaning":"lampe","furigana":"ランプ"},
+        {"word":"テーブル","meaning":"table","furigana":"テーブル"},
+        {"word":"フオーク","meaning":"fourchette","furigana":"フオーク"},
+        {"word":"ナイフ","meaning":"couteau","furigana":"ナイフ"},
+        {"word":"スプーン","meaning":"cuillere","furigana":"スプーン"},
+        {"word":"トイレ","meaning":"toilettes","furigana":"トイレ"}
+    ]
+}

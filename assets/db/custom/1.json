@@ -10,8 +10,8 @@
         {"word":"おはよう","meaning":"bon matin","furigana":"おはよう"},
         {"word":"こんにちは","meaning":"bonjour","furigana":"こんにちは"},
         {"word":"こんばんは","meaning":"bonsoir","furigana":"こんばんは"},
-        {"word":"お元気ですか","meaning":"comment vas-tu","furigana":"おげんきですか"},
-        {"word":"元気です","meaning":"je vais bien","furigana":"げんきです"},
+        {"word":"お元気ですか","meaning":"comment vas-tu","furigana":"おゲンキですか"},
+        {"word":"元気です","meaning":"je vais bien","furigana":"ケンキです"},
         {"word":"またね","meaning":"au revoir","furigana":"またね"},
         {"word":"おやすみ","meaning":"bonne nuit","furigana":"おやすみ"},
         {"word":"また明日","meaning":"a demain","furigana":"またあした"},
@@ -26,6 +26,6 @@
         {"word":"ただいま","meaning":"je suis rentre","furigana":"ただいま"},
         {"word":"おかえり","meaning":"bon retour","furigana":"おかえり"},
         {"word":"ようこそ","meaning":"bienvenue","furigana":"ようこそ"},
-        {"word":"お邪魔します","meaning":"je rentre","furigana":"おじゃまします"}
+        {"word":"お邪魔します","meaning":"je rentre","furigana":"おジャマします"}
     ]
 }
