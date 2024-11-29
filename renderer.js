@@ -33,7 +33,7 @@ function loadKanjiList() {
           ...fileContent.content.map(item => ({
             kanji: item.word,
             kana: item.furigana,
-            translation: item.meaning,
+            translation: item.meaning || item.word,
           }))
         );
       });
@@ -45,7 +45,7 @@ function loadKanjiList() {
     .map(item => ({
       kanji: item.word,
       kana: item.furigana,
-      translation: item.meaning
+      translation: item.meaning || item.word
     }));
   }
 

@@ -1,0 +1,26 @@
+{
+    "name": "Premiers mots en kanji",
+    "content":
+    [
+        {"word":"人","meaning":"la personne","furigana":"ひと"},
+        {"word":"男","meaning":"homme","furigana":"おとこ"},
+        {"word":"女","meaning":"femme","furigana":"おんあ"},
+        {"word":"子","meaning":"enfant","furigana":"こ"},
+        {"word":"日","meaning":"soleil","furigana":"ひ"},
+        {"word":"月","meaning":"lune","furigana":"つき"},
+        {"word":"時","meaning":"temps","furigana":"とき"},
+        {"word":"水","meaning":"eau","furigana":"みず"},
+        {"word":"火","meaning":"feu","furigana":"ひ"},
+        {"word":"土","meaning":"terre","furigana":"つち"},
+        {"word":"風","meaning":"vent","furigana":"かぜ"},
+        {"word":"空","meaning":"ciel","furigana":"そら"},
+        {"word":"山","meaning":"montagne","furigana":"やま"},
+        {"word":"川","meaning":"riviere","furigana":"かわ"},
+        {"word":"花","meaning":"fleur","furigana":"はな"},
+        {"word":"木","meaning":"arbre","furigana":"き"},
+        {"word":"雨","meaning":"pluie","furigana":"あめ"},
+        {"word":"雪","meaning":"neige","furigana":"ゆき"},
+        {"word":"金","meaning":"argent","furigana":"かね"},
+        {"word":"刀","meaning":"sabre","furigana":"かたな"}
+    ]
+}
