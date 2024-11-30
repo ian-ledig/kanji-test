@@ -25,31 +25,31 @@ Vocabulary Test is an interactive application designed to help users learn and m
 
 2. Install the required dependencies:
 
-    ```bash
-    npm install
-    ```
+   ```bash
+   npm install
+   ```
 
 3. Run the app in development mode:
 
-    ```bash
-    npm start
-    ```
+   ```bash
+   npm start
+   ```
 
 ## Building the Executable
 
 1. Build the Executable
 
-    ```bash
-    npm run dist
-    ```
+   ```bash
+   npm run dist
+   ```
 
 2. Locate the Executable
 
-    After the build process finishes, you will find the generated installer in the `dist/` directory of your project. For example:  
+   After the build process finishes, you will find the generated installer in the `dist/` directory of your project. For example:
 
-    Windows: You will find an `.exe` installer.  
-    macOS: The app will be packaged as a `.dmg` file.  
-    Linux: You will find a `.deb` or `.AppImage` file, depending on your system configuration.
+   Windows: You will find an `.exe` installer.  
+   macOS: The app will be packaged as a `.dmg` file.  
+   Linux: You will find a `.deb` or `.AppImage` file, depending on your system configuration.
 
 ## Usage
 
@@ -63,7 +63,7 @@ This project is developed by [Ian LEDIG](https://github.com/ian-ledig). I create
 
 ## Contributor
 
-Thanks to [Kei](https://github.com/wkei) for the vocabulary list.
+Thanks to [Kei](https://github.com/wkei) and [Julien Fontanier](https://www.youtube.com/@coursdejaponais) for the vocabulary list.
 
 ## Screen
 
@@ -76,5 +76,5 @@ Below is a screenshot of the application in action:
 The screen displays a random word with an input box for typing the correct kana. You can see the feedback after entering your answer.
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/ian-ledig/kanji-test/blob/master/LISENCE) file for details.
 
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/ian-ledig/kanji-test/blob/master/LISENCE) file for details.
