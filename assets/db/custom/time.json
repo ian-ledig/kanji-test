@@ -17,6 +17,10 @@
         {"word":"去年","meaning":"l'annee derniere","furigana":"キョネン"},
         {"word":"今年","meaning":"cette annee","furigana":"ことし"},
         {"word":"来年","meaning":"l'annee prochaine","furigana":"ライネン"},
-        {"word":"毎年","meaning":"tous les ans","furigana":"マイとし"}
+        {"word":"毎年","meaning":"tous les ans","furigana":"マイとし"},
+        {"word":"一日中","meaning":"toute la journee","furigana":"イチニチジュウ"},
+        {"word":"いつも","meaning":"toujours","furigana":""},
+        {"word":"今朝","meaning":"ce matin","furigana":"けさ"},
+        {"word":"毎晩","meaning":"tous les soirs","furigana":"マイバン"}
     ]
 }

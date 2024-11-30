@@ -21,6 +21,12 @@
         {"word":"知る","meaning":"savoir","furigana":"しる"},
         {"word":"分かる","meaning":"comprendre","furigana":"わかる"},
         {"word":"思う","meaning":"penser","furigana":"おもう"},
-        {"word":"言う","meaning":"dire","furigana":"いう"}
+        {"word":"言う","meaning":"dire","furigana":"いう"},
+
+        {"word":"遊ぶ","meaning":"jouer","furigana":"あそぶ"},
+        {"word":"泳ぐ","meaning":"nager","furigana":"およぐ"},
+        {"word":"泣く","meaning":"pleurer","furigana":"なく"},
+        {"word":"笑う","meaning":"rire","furigana":"わらう"},
+        {"word":"送る","meaning":"envoyer","furigana":"おくる"}
     ]
 }
