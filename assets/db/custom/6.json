@@ -1,0 +1,25 @@
+{
+    "name": "Les membres de la famille",
+    "content":
+    [
+        {"word":"夫","meaning":"mon epoux","furigana":"おっと"},
+        {"word":"妻","meaning":"mon epouse","furigana":"つま"},
+        {"word":"両親","meaning":"mes parents","furigana":"リョウシン"},
+        {"word":"父","meaning":"mon pere","furigana":"ちち"},
+        {"word":"母","meaning":"ma mere","furigana":"はは"},
+        {"word":"子供","meaning":"mon enfant","furigana":"こども"},
+        {"word":"息子","meaning":"mon fils","furigana":"むすこ"},
+        {"word":"娘","meaning":"ma fille","furigana":"むすめ"},
+        {"word":"祖父母","meaning":"mes grands-parents","furigana":"ソフボ"},
+        {"word":"祖父","meaning":"mon grand-pere","furigana":"ソフ"},
+        {"word":"祖母","meaning":"ma grand-mere","furigana":"ソボ"},
+        {"word":"孫","meaning":"mon petit-enfant","furigana":"まご"},
+        {"word":"双子","meaning":"mon jumeau","furigana":"ふたご"},
+        {"word":"兄","meaning":"mon frere aine","furigana":"あに"},
+        {"word":"弟","meaning":"mon frere cadet","furigana":"おとうと"},
+        {"word":"姉","meaning":"ma soeur aine","furigana":"あね"},
+        {"word":"妹","meaning":"ma soeur cadette","furigana":"いもうと"},
+        {"word":"おじ","meaning":"mon oncle","furigana":""},
+        {"word":"おば","meaning":"ma tante","furigana":""}
+    ]
+}

@@ -32,8 +32,8 @@ function loadKanjiList() {
         kanjiList.push(
           ...fileContent.content.map(item => ({
             kanji: item.word,
-            kana: item.furigana,
-            translation: item.meaning || item.word,
+            kana: item.furigana || item.word,
+            translation: item.meaning
           }))
         );
       });
@@ -44,8 +44,8 @@ function loadKanjiList() {
     .filter(item => item.furigana && item.furigana.trim() !== "")
     .map(item => ({
       kanji: item.word,
-      kana: item.furigana,
-      translation: item.meaning || item.word
+      kana: item.furigana || item.word,
+      translation: item.meaning
     }));
   }
 
