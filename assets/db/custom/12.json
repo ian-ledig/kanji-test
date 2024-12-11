@@ -1,0 +1,31 @@
+{
+    "name": "Les monstres d'Halloween",
+    "content":
+    [
+        {"word":"怪物","meaning":"monstre","furigana":"カイブツ"},
+        {"word":"満月","meaning":"pleine lune","furigana":"マンゲツ"},
+        {"word":"狼男","meaning":"loup-garou","furigana":"おおかみおとこ"},
+        {"word":"悪魔","meaning":"diable","furigana":"アクマ"},
+        {"word":"亡霊","meaning":"fantome","furigana":"ボウレイ"},
+        {"word":"モイラ","meaning":"momie","furigana":""},
+        {"word":"吸血鬼","meaning":"vampire","furigana":"キュウケツキ"},
+        {"word":"血","meaning":"sang","furigana":"ち"},
+        {"word":"骨格","meaning":"squelette","furigana":"コッカク"},
+        {"word":"骨","meaning":"os","furigana":"ほね"},
+        {"word":"飴","meaning":"bonbon","furigana":"あめ"},
+        {"word":"魔女","meaning":"sorciere","furigana":"マジョ"},
+        {"word":"仮装","meaning":"deguisement","furigana":"カソウ"},
+        {"word":"コスポレ","meaning":"cosplay","furigana":""},
+        {"word":"箒","meaning":"balai","furigana":"ほうき"},
+        {"word":"妖怪","meaning":"esprit","furigana":"ヨウカイ"},
+        {"word":"仮面","meaning":"masque","furigana":"カメン"},
+        {"word":"コウモリ","meaning":"chauve-souris","furigana":""},
+        {"word":"幽霊屋敷","meaning":"maison hantee","furigana":"ユウレイやしき"},
+        {"word":"墓","meaning":"la tombe","furigana":"はか"},
+        {"word":"墓地","meaning":"cimetiere","furigana":"ボチ"},
+        {"word":"ろうをく","meaning":"bougie","furigana":""},
+        {"word":"ゾンビ","meaning":"zombie","furigana":""},
+        {"word":"アンデッド","meaning":"mort-vivant","furigana":""},
+        {"word":"かぽちゃ","meaning":"citrouille","furigana":""}
+    ]
+}

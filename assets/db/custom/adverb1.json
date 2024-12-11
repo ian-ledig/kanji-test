@@ -1,0 +1,32 @@
+{
+    "name": "Adverbes 1",
+    "content":
+    [
+        {"word":"lentement","meaning":"","furigana":"ゆっくり"},
+        {"word":"fermement","meaning":"","furigana":"しっかり"},
+        {"word":"soigneusement","meaning":"","furigana":"きちんと"},
+        {"word":"tres","meaning":"","furigana":"とても"},
+        {"word":"encore plus","meaning":"","furigana":"もっと"},
+        {"word":"assez","meaning":"","furigana":"かなり"},
+        {"word":"beaucoup","meaning":"","furigana":"たくさん"},
+        {"word":"plein","meaning":"","furigana":"いっぱい"},
+        {"word":"少し","meaning":"un peu","furigana":"すこし"},
+        {"word":"constamment","meaning":"","furigana":"ずっと"},
+        {"word":"immediatement","meaning":"","furigana":"すぐ"},
+        {"word":"間もなく","meaning":"sous peu","furigana":"まもなく"},
+        {"word":"時々","meaning":"de temps en temps","furigana":"ときどき"},
+        {"word":"souvent","meaning":"","furigana":"よく"},
+        {"word":"toujours","meaning":"","furigana":"いつも"},
+        {"word":"deja","meaning":"","furigana":"もう"},
+        {"word":"enfin","meaning":"","furigana":"ついに"},
+        {"word":"encore","meaning":"","furigana":"まだ"},
+        {"word":"多分","meaning":"peut-etre","furigana":"タブン"},
+        {"word":"確かに","meaning":"certainement","furigana":"たしかに"},
+        {"word":"必ず","meaning":"a coup sur","furigana":"かならず"},
+        {"word":"bien entendu","meaning":"","furigana":"もちろん"},
+        {"word":"本堂に","meaning":"vraiment","furigana":"ホントウニ"},
+        {"word":"comme on pouvait s'y attendre","meaning":"","furigana":"やはり"},
+        {"word":"*qui se repete*","meaning":"","furigana":"また"},
+        {"word":"*qui dure dans le temps*","meaning":"","furigana":"まだ"}
+    ]
+}

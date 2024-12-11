@@ -1,32 +1,135 @@
 {
     "name": "Les aliments de base",
-    "content":
-    [
-        {"word":"パン","meaning":"le pain","furigana":"パン"},
-        {"word":"ご飯","meaning":"le riz","furigana":"ごハン"},
-        {"word":"パスタ","meaning":"les pates","furigana":"パスタ"},
-        {"word":"ラーメン","meaning":"ramen","furigana":"ラーメン"},
-        {"word":"野菜","meaning":"legume","furigana":"ヤサイ"},
-        {"word":"果物","meaning":"fruit","furigana":"くだもの"},
-        {"word":"ジャム","meaning":"confiture","furigana":"ジャム"},
-        {"word":"肉","meaning":"viande","furigana":"ニク"},
-        {"word":"卵","meaning":"oeuf","furigana":"たまご"},
-        {"word":"お茶","meaning":"thé","furigana":"おチャ"},
-        {"word":"コーヒー","meaning":"café","furigana":"コーヒー"},
-        {"word":"牛乳","meaning":"lait","furigana":"ギュウニュウ"},
-        {"word":"バター","meaning":"beurre","furigana":"バター"},
-        {"word":"チーズ","meaning":"fromage","furigana":"チーズ"},
-        {"word":"ヨーグリト","meaning":"yaourt","furigana":"ヨーグリト"},
-        {"word":"アイスクリーム","meaning":"creme glacée","furigana":"アイスクリーム"},
-        {"word":"デザート","meaning":"dessert","furigana":"デザート"},
-        {"word":"お菓子","meaning":"confiserie","furigana":"おカシ"},
-        {"word":"シリアリ","meaning":"céréales","furigana":"シリアリ"},
-        {"word":"砂糖","meaning":"sucre","furigana":"サトウ"},
-        {"word":"塩","meaning":"sel","furigana":"しお"},
-        {"word":"コショウ","meaning":"poivre","furigana":"コショ"},
-        {"word":"ソース","meaning":"sauce","furigana":"ソース"},
-        {"word":"汁物","meaning":"soupe","furigana":"しるもの"},
-        {"word":"お酒","meaning":"alcool","furigana":"おさけ"},
-        {"word":"日本酒","meaning":"saké","furigana":"ニホンジュ"}
+    "content": [
+        {
+            "word": "パン",
+            "meaning": "le pain",
+            "furigana": "パン"
+        },
+        {
+            "word": "ご飯",
+            "meaning": "le riz",
+            "furigana": "ごハン"
+        },
+        {
+            "word": "パスタ",
+            "meaning": "les pates",
+            "furigana": "パスタ"
+        },
+        {
+            "word": "ラーメン",
+            "meaning": "ramen",
+            "furigana": "ラーメン"
+        },
+        {
+            "word": "野菜",
+            "meaning": "legume",
+            "furigana": "ヤサイ"
+        },
+        {
+            "word": "果物",
+            "meaning": "fruit",
+            "furigana": "くだもの"
+        },
+        {
+            "word": "ジャム",
+            "meaning": "confiture",
+            "furigana": "ジャム"
+        },
+        {
+            "word": "肉",
+            "meaning": "viande",
+            "furigana": "ニク"
+        },
+        {
+            "word": "卵",
+            "meaning": "oeuf",
+            "furigana": "たまご"
+        },
+        {
+            "word": "お茶",
+            "meaning": "thé",
+            "furigana": "おチャ"
+        },
+        {
+            "word": "コーヒー",
+            "meaning": "café",
+            "furigana": "コーヒー"
+        },
+        {
+            "word": "牛乳",
+            "meaning": "lait",
+            "furigana": "ギュウニュウ"
+        },
+        {
+            "word": "バター",
+            "meaning": "beurre",
+            "furigana": "バター"
+        },
+        {
+            "word": "チーズ",
+            "meaning": "fromage",
+            "furigana": "チーズ"
+        },
+        {
+            "word": "ヨーグリト",
+            "meaning": "yaourt",
+            "furigana": "ヨーグリト"
+        },
+        {
+            "word": "アイスクリーム",
+            "meaning": "creme glacée",
+            "furigana": "アイスクリーム"
+        },
+        {
+            "word": "デザート",
+            "meaning": "dessert",
+            "furigana": "デザート"
+        },
+        {
+            "word": "お菓子",
+            "meaning": "confiserie",
+            "furigana": "おカシ"
+        },
+        {
+            "word": "シリアリ",
+            "meaning": "céréales",
+            "furigana": "シリアリ"
+        },
+        {
+            "word": "砂糖",
+            "meaning": "sucre",
+            "furigana": "サトウ"
+        },
+        {
+            "word": "塩",
+            "meaning": "sel",
+            "furigana": "しお"
+        },
+        {
+            "word": "コショウ",
+            "meaning": "poivre",
+            "furigana": "コショウ"
+        },
+        {
+            "word": "ソース",
+            "meaning": "sauce",
+            "furigana": "ソース"
+        },
+        {
+            "word": "汁物",
+            "meaning": "soupe",
+            "furigana": "しるもの"
+        },
+        {
+            "word": "お酒",
+            "meaning": "alcool",
+            "furigana": "おさけ"
+        },
+        {
+            "word": "日本酒",
+            "meaning": "saké",
+            "furigana": "ニホンジュ"
+        }
     ]
 }

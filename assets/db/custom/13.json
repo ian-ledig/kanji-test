@@ -1,0 +1,28 @@
+{
+    "name": "Le reveillon de Noel",
+    "content":
+    [
+        {"word":"雪崩","meaning":"avalanche","furigana":"なだれ"},
+        {"word":"イエティ","meaning":"yeti","furigana":""},
+        {"word":"スキー","meaning":"ski","furigana":""},
+        {"word":"スノーボード","meaning":"snowboard","furigana":""},
+        {"word":"クリスマスツリー","meaning":"sapin de noel","furigana":""},
+        {"word":"飾り","meaning":"decoration","furigana":"かざり"},
+        {"word":"電飾","meaning":"decoration electrique","furigana":"デンショク"},
+        {"word":"サンタクロース","meaning":"pere noel","furigana":""},
+        {"word":"プレゼント","meaning":"cadeau","furigana":""},
+        {"word":"雪だるま","meaning":"bonhomme de neige","furigana":"ゆきだるま"},
+        {"word":"ケーキ","meaning":"gateau","furigana":""},
+        {"word":"氷","meaning":"glace","furigana":"こおり"},
+        {"word":"スケートリンク","meaning":"patinoire","furigana":""},
+        {"word":"スケート","meaning":"patin a glace","furigana":""},
+        {"word":"トナカイ","meaning":"le renne","furigana":""},
+        {"word":"ぞり","meaning":"traineau","furigana":""},
+        {"word":"雪女","meaning":"femme des neiges","furigana":"ゆきおんな"},
+        {"word":"雪玉","meaning":"boule de neige","furigana":"ゆきだま"},
+        {"word":"玉","meaning":"boule","furigana":"たま"},
+        {"word":"イグルー","meaning":"igloo","furigana":""},
+        {"word":"流れ星","meaning":"etoile filante","furigana":"ながれぼし"},
+        {"word":"ギンセカイ","meaning":"paysage enneige","furigana":"ギンセカイ"}
+    ]
+}
