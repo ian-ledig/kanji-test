@@ -32,10 +32,11 @@ body {
   display: none;
   justify-content: center;
   margin-top: 20px;
+  font-size: 5vw;
 }
 
 #kanji {
-  font-size: 50px;
+  font-size: 25vw;
 }
 
 #kana-input {
@@ -148,7 +149,7 @@ body {
 }
 
 #answer {
-  font-size: 14px;
+  font-size: 8vw;
   color: #196f3d;
   min-height: 20px;
 }
