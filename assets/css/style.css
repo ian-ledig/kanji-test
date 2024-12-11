@@ -36,7 +36,11 @@ body {
 }
 
 #kanji {
-  font-size: 25vw;
+  font-size: calc(8vw + 10vh); /* Use both viewport width and height for font-size calculation */
+        max-width: 100%;
+        overflow: hidden; /* Prevent text overflow */
+        text-overflow: ellipsis; /* Indicate overflow with ellipsis */
+        word-break: break-word;
 }
 
 #kana-input {
