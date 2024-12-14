@@ -1,0 +1,30 @@
+{
+    "name": "Batiments de la ville",
+    "content":
+    [
+        {"word":"市役所","meaning":"mairie","furigana":"シヤクショ"},
+        {"word":"学校","meaning":"ecole","furigana":"ガッコウ"},
+        {"word":"病院","meaning":"hopital","furigana":"ビョウイン"},
+        {"word":"薬屋","meaning":"pharmacie","furigana":"くすりや"},
+        {"word":"郵便局","meaning":"bureau de poste","furigana":"ユウビンキョク"},
+        {"word":"銀行","meaning":"banque","furigana":"ギンコウ"},
+        {"word":"警察署","meaning":"commissariat","furigana":"ケイサツショ"},
+        {"word":"交番","meaning":"poste de police","furigana":"交番"},
+        {"word":"劇場","meaning":"theatre","furigana":"ゲキジョウ"},
+        {"word":"映画館","meaning":"cinema","furigana":"エイガカン"},
+        {"word":"図書館","meaning":"bibliotheque","furigana":"トショカン"},
+        {"word":"美術館","meaning":"musee","furigana":"ビジュツカン"},
+        {"word":"公園","meaning":"parc","furigana":"コウエン"},
+        {"word":"動物園","meaning":"zoo","furigana":"ドウブツエン"},
+        {"word":"寺","meaning":"temple","furigana":"てら"},
+        {"word":"神社","meaning":"sanctuaire","furigana":"ジンジャ"},
+        {"word":"協会","meaning":"eglise","furigana":"キョウカイ"},
+        {"word":"店","meaning":"magasin","furigana":"みせ"},
+        {"word":"レストラン","meaning":"restaurant","furigana":""},
+        {"word":"ホテル","meaning":"hotel","furigana":""},
+        {"word":"スタジアム","meaning":"stade","furigana":""},
+        {"word":"駅","meaning":"gare","furigana":"エキ"},
+        {"word":"港","meaning":"port","furigana":"みなと"},
+        {"word":"空港","meaning":"aeroport","furigana":"クウコウ"}
+    ]
+}

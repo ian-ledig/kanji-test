@@ -1,0 +1,32 @@
+{
+    "name": "Vetements du quotidien",
+    "content":
+    [
+        {"word":"ワイシャッ","meaning":"chemise","furigana":""},
+        {"word":"Tシャッ","meaning":"t-shirt","furigana":""},
+        {"word":"セーター","meaning":"pull-over","furigana":""},
+        {"word":"ジャケット","meaning":"veste","furigana":""},
+        {"word":"ズボン","meaning":"pantalon","furigana":""},
+        {"word":"ジーンズ","meaning":"le jeans","furigana":""},
+        {"word":"ベルト","meaning":"ceinture","furigana":""},
+        {"word":"靴","meaning":"chaussure","furigana":"くつ"},
+        {"word":"下駄","meaning":"geta","furigana":"ゲタ"},
+        {"word":"運動靴","meaning":"chaussure de sport","furigana":"ウンドウぐつ"},
+        {"word":"靴下","meaning":"chaussette","furigana":"くつした"},
+        {"word":"ブリーフ","meaning":"slip","furigana":""},
+        {"word":"トランクス","meaning":"calecon","furigana":""},
+        {"word":"パンティー","meaning":"culotte","furigana":""},
+        {"word":"ブラジャー","meaning":"soutien-gorge","furigana":""},
+        {"word":"スカート","meaning":"jupe","furigana":""},
+        {"word":"ミニスカート","meaning":"minijupe","furigana":""},
+        {"word":"ドレス","meaning":"robe","furigana":""},
+        {"word":"トレーニングウェア","meaning":"survetement","furigana":""},
+        {"word":"コート","meaning":"manteau","furigana":""},
+        {"word":"帽子","meaning":"chapeau","furigana":"ボウシ"},
+        {"word":"キャップ","meaning":"casquette","furigana":""},
+        {"word":"手袋","meaning":"gant","furigana":"てぶくろ"},
+        {"word":"襟巻き","meaning":"echarpe","furigana":"れいまき"},
+        {"word":"ネクタイ","meaning":"cravate","furigana":""},
+        {"word":"ボウ","meaning":"noeud papillon","furigana":""}
+    ]
+}
