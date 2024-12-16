@@ -1,0 +1,15 @@
+{
+    "name": "Adverbes 2",
+    "content":
+    [
+        {"word":"だけ","meaning":"_que (unique)","furigana":""},
+        {"word":"しか","meaning":"_ne - que* (negatif)","furigana":""},
+        {"word":"ばかり","meaning":"_ne - que (pejoratif)","furigana":""},
+        {"word":"くらい","meaning":"_environ","furigana":""},
+        {"word":"ほど","meaning":"_commeの","furigana":""},
+        {"word":"など","meaning":"_etc","furigana":""},
+        {"word":"こそ","meaning":"pour sur","furigana":""},
+        {"word":"さえ","meaning":"_meme (etonnant)","furigana":""},
+        {"word":"でも","meaning":"_meme (extreme)","furigana":""}
+    ]
+}
