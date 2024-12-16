@@ -2,14 +2,14 @@
     "name": "Adverbes 2",
     "content":
     [
-        {"word":"だけ","meaning":"_que (unique)","furigana":""},
-        {"word":"しか","meaning":"_ne - que* (negatif)","furigana":""},
-        {"word":"ばかり","meaning":"_ne - que (pejoratif)","furigana":""},
-        {"word":"くらい","meaning":"_environ","furigana":""},
-        {"word":"ほど","meaning":"_commeの","furigana":""},
-        {"word":"など","meaning":"_etc","furigana":""},
-        {"word":"こそ","meaning":"pour sur","furigana":""},
-        {"word":"さえ","meaning":"_meme (etonnant)","furigana":""},
-        {"word":"でも","meaning":"_meme (extreme)","furigana":""}
+        {"word":"_que (unique)","meaning":"","furigana":"だけ"},
+        {"word":"_ne - que* (negatif)","meaning":"","furigana":"しか"},
+        {"word":"_ne - que (pejoratif)","meaning":"","furigana":"ばかり"},
+        {"word":"_environ","meaning":"","furigana":"くらい"},
+        {"word":"_commeの","meaning":"","furigana":"ほど"},
+        {"word":"_etc","meaning":"","furigana":"など"},
+        {"word":"pour sur","meaning":"","furigana":"こそ"},
+        {"word":"_meme (etonnant)","meaning":"","furigana":"さえ"},
+        {"word":"_meme (extreme)","meaning":"","furigana":"でも"}
     ]
 }
