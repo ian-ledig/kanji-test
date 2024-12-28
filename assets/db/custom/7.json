@@ -1,0 +1,26 @@
+{
+    "name": "Les couleurs",
+    "content":
+    [
+        {"word":"あか","meaning":"rouge","furigana":""},
+        {"word":"あお","meaning":"bleu","furigana":""},
+        {"word":"黄色","meaning":"jaune","furigana":"きいろ"},
+        {"word":"オランジ色","meaning":"orange","furigana":"オレンジいろ"},
+        {"word":"紫","meaning":"violet","furigana":"むらさき"},
+        {"word":"緑","meaning":"vert","furigana":"みどり"},
+        {"word":"白","meaning":"blanc","furigana":"しろ"},
+        {"word":"黒","meaning":"noir","furigana":"くろ"},
+        {"word":"灰色","meaning":"gris","furigana":"はいいろ"},
+        {"word":"ピンク","meaning":"rose","furigana":""},
+        {"word":"茶色","meaning":"marron","furigana":"チャいろ"},
+        {"word":"ベージュ","meaning":"beige","furigana":"ベージュ"},
+        {"word":"薄紫色","meaning":"mauve","furigana":"うすむらさきいろ"},
+        {"word":"マゼンタ","meaning":"magenta","furigana":""},
+        {"word":"紅","meaning":"cramoisi","furigana":"くれない"},
+        {"word":"シアン","meaning":"cyan","furigana":""},
+        {"word":"水色","meaning":"bleu clair","furigana":"みずいろ"},
+        {"word":"インディゴ","meaning":"indigo","furigana":""},
+        {"word":"虹色","meaning":"couleur arc-en-ciel","furigana":"にじいろ"},
+        {"word":"金色","meaning":"couleur or","furigana":"キンいろ"}
+    ]
+}
