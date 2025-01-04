@@ -2,21 +2,21 @@
     "name": "Question 1",
     "content":
     [
-        {"word":"誰","meaning":"qui ?","furigana":"だれ"},
-        {"word":"どこ","meaning":"où ?","furigana":""},
-        {"word":"何","meaning":"quoi ? que ?","furigana":"なに"},
-        {"word":"いつ","meaning":"quand ?","furigana":""},
-        {"word":"誰か","meaning":"quelqu'un","furigana":"だれか"},
-        {"word":"誰も","meaning":"tout le monde","furigana":"だれも"},
-        {"word":"誰でも","meaning":"n'importe qui","furigana":"だれでも"},
-        {"word":"どこか","meaning":"quelque part","furigana":""},
-        {"word":"どこも","meaning":"partout","furigana":""},
-        {"word":"どこでも","meaning":"n'importe où","furigana":""},
-        {"word":"何か","meaning":"quelque chose","furigana":"なにか"},
-        {"word":"何も","meaning":"tout","furigana":"なにも"},
-        {"word":"何でも","meaning":"n'importe quoi","furigana":"なにでも"},
-        {"word":"いつか","meaning":"un beau jour","furigana":""},
-        {"word":"いつも","meaning":"toujours","furigana":""},
-        {"word":"いつでも","meaning":"n'importe quand","furigana":""}
+        {"word":"qui ?", "meaning":"誰", "furigana":"だれ"},
+        {"word":"où ?", "meaning":"どこ", "furigana":""},
+        {"word":"quoi ? que ?", "meaning":"何", "furigana":"なに"},
+        {"word":"quand ?", "meaning":"いつ", "furigana":""},
+        {"word":"quelqu'un", "meaning":"誰か", "furigana":"だれか"},
+        {"word":"tout le monde", "meaning":"誰も", "furigana":"だれも"},
+        {"word":"n'importe qui", "meaning":"誰でも", "furigana":"だれでも"},
+        {"word":"quelque part", "meaning":"どこか", "furigana":""},
+        {"word":"partout", "meaning":"どこも", "furigana":""},
+        {"word":"n'importe où", "meaning":"どこでも", "furigana":""},
+        {"word":"quelque chose", "meaning":"何か", "furigana":"なにか"},
+        {"word":"tout", "meaning":"何も", "furigana":"なにも"},
+        {"word":"n'importe quoi", "meaning":"何でも", "furigana":"なにでも"},
+        {"word":"un beau jour", "meaning":"いつか", "furigana":""},
+        {"word":"toujours", "meaning":"いつも", "furigana":""},
+        {"word":"n'importe quand", "meaning":"いつでも", "furigana":""}
     ]
 }
