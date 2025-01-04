@@ -1,0 +1,22 @@
+{
+    "name": "Question 1",
+    "content":
+    [
+        {"word":"誰","meaning":"qui ?","furigana":"だれ"},
+        {"word":"どこ","meaning":"où ?","furigana":""},
+        {"word":"何","meaning":"quoi ? que ?","furigana":"なに"},
+        {"word":"いつ","meaning":"quand ?","furigana":""},
+        {"word":"誰か","meaning":"quelqu'un","furigana":"だれか"},
+        {"word":"誰も","meaning":"tout le monde","furigana":"だれも"},
+        {"word":"誰でも","meaning":"n'importe qui","furigana":"だれでも"},
+        {"word":"どこか","meaning":"quelque part","furigana":""},
+        {"word":"どこも","meaning":"partout","furigana":""},
+        {"word":"どこでも","meaning":"n'importe où","furigana":""},
+        {"word":"何か","meaning":"quelque chose","furigana":"なにか"},
+        {"word":"何も","meaning":"tout","furigana":"なにも"},
+        {"word":"何でも","meaning":"n'importe quoi","furigana":"なにでも"},
+        {"word":"いつか","meaning":"un beau jour","furigana":""},
+        {"word":"いつも","meaning":"toujours","furigana":""},
+        {"word":"いつでも","meaning":"n'importe quand","furigana":""}
+    ]
+}
