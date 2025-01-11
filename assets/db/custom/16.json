@@ -1,0 +1,32 @@
+{
+    "name": "Saint-Valentin",
+    "content":
+    [
+        {"word":"愛","meaning":"amour","furigana":"アイ"},
+        {"word":"心","meaning":"coeur","furigana":"こころ"},
+        {"word":"一目ぼれ","meaning":"coup de foudre","furigana":"ひとめぼれ"},
+        {"word":"天使","meaning":"ange","furigana":"テンシ"},
+        {"word":"クピードー","meaning":"cupidon","furigana":""},
+        {"word":"夢","meaning":"reve","furigana":"ゆめ"},
+        {"word":"デート","meaning":"rendez-vous galant","furigana":""},
+        {"word":"ナンパ","meaning":"drague","furigana":""},
+        {"word":"愛しています","meaning":"je t'aime","furigana":"アイしています"},
+        {"word":"恋人","meaning":"petit-ami","furigana":"こいびと"},
+        {"word":"抱っこ","meaning":"calin","furigana":"だっこ"},
+        {"word":"花束","meaning":"bouquet de fleurs","furigana":"はなたば"},
+        {"word":"バラ","meaning":"rose","furigana":""},
+        {"word":"チョコレート","meaning":"chocolat","furigana":""},
+        {"word":"指輪","meaning":"bague","furigana":"ゆびわ"},
+        {"word":"ウェディングリング","meaning":"l'alliance","furigana":""},
+        {"word":"ジュエリー","meaning":"bijou","furigana":""},
+        {"word":"婚約","meaning":"fiancailles","furigana":"コンヤク"},
+        {"word":"婚約者","meaning":"fiance","furigana":"コンヤクシャ"},
+        {"word":"結婚","meaning":"mariage","furigana":"ケッコン"},
+        {"word":"接吻","meaning":"le baiser","furigana":"セップン"},
+        {"word":"ウェディングドレス","meaning":"robe de marier","furigana":""},
+        {"word":"写真","meaning":"photographie","furigana":"シャシン"},
+        {"word":"花火","meaning":"feu d'artifice","furigana":"はなび"},
+        {"word":"火花","meaning":"etincelle","furigana":"ひばな"},
+        {"word":"パーティー","meaning":"fete","furigana":""}
+    ]
+}
