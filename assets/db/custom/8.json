@@ -1,0 +1,13 @@
+{
+    "name": "Jours de la semaine",
+    "content":
+    [
+        {"word":"日曜日","meaning":"dimanche","furigana":"ニチヨウび"},
+        {"word":"月曜日","meaning":"lundi","furigana":"ゲツヨウび"},
+        {"word":"火曜日","meaning":"mardi","furigana":"カヨウび"},
+        {"word":"水曜日","meaning":"mercredi","furigana":"スイヨウび"},
+        {"word":"木曜日","meaning":"jeudi","furigana":"モクヨウび"},
+        {"word":"金曜日","meaning":"vendredi","furigana":"キンヨウび"},
+        {"word":"土曜日","meaning":"samedi","furigana":"ドヨウび"}
+    ]
+}
